@@ -1,0 +1,19 @@
+.menu-social {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu-social__link {
+  margin: 0 0.4rem;
+  position: relative;
+}
+
+.menu-social__logo {
+  width: 1.1rem;
+  transition: 0.4s;
+}
+
+.menu-social__logo:hover {
+  transform: scale(1.3);
+}

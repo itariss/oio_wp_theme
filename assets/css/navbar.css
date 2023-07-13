@@ -1,0 +1,38 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 2rem;
+  position: sticky;
+}
+
+#navbar div .menu {
+  display: flex;
+  list-style: none;
+  padding: 0.5rem 0.7rem;
+  border-radius: 17px;
+  background-color: #ffffffec;
+  backdrop-filter: blur(12px);
+}
+
+#navbar div .menu li a {
+  padding: 0.5rem 0.7rem;
+  margin: 0 0.4rem;
+  border-radius: 17px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: #131417;
+  transition: 0.4s ease-in-out;
+}
+
+#navbar div .menu li a:not(.menu-nav--active):hover {
+  background-color: #131417a6;
+  color: #bebebf;
+}
+
+.menu-nav--active {
+  background-color: #131417;
+  color: #bebebf !important;
+  transition: 0.4s;
+}

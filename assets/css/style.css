@@ -1,0 +1,12 @@
+@import url(./navbar.css);
+@import url(./logo.css);
+@import url(./menu-social.css);
+
+@font-face {
+  font-family: "Manrope";
+  src: url(../fonts/Manrope-VariableFont_wght.ttf);
+}
+
+html {
+  font-family: "Manrope";
+}
