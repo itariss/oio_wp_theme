@@ -29,6 +29,7 @@
 #navbar div .menu li a:not(.menu-nav--active):hover {
   background-color: #131417a6;
   color: #bebebf;
+  transform: scale(1.2);
 }
 
 .menu-nav--active {

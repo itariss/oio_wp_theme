@@ -1,6 +1,7 @@
 @import url(./navbar.css);
 @import url(./logo.css);
 @import url(./menu-social.css);
+@import url(./menu-mobile.css);
 
 @font-face {
   font-family: "Manrope";

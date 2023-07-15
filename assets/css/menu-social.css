@@ -1,12 +1,11 @@
 .menu-social {
   display: flex;
   justify-content: space-between;
-  position: relative;
 }
 
 .menu-social__link {
   margin: 0 0.4rem;
-  position: relative;
+  text-decoration: none;
 }
 
 .menu-social__logo {
