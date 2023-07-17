@@ -24,3 +24,11 @@
   background-color: #bebebf;
   color: #131417;
 }
+
+@media screen and (min-width: 768px) {
+  .footer-social {
+    flex-direction: row;
+    height: fit-content;
+    margin: 3rem auto;
+  }
+}
