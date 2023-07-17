@@ -7,6 +7,8 @@ const pageLocation = window.location
 
 const menuItems = document.querySelectorAll("ul.menu > li > a");
 
+pageLocation == "oio" ? menuItems[0].classList.add("menu-nav--active") : false;
+
 menuItems.forEach((item) => {
   if (item.textContent.toLowerCase() == pageLocation) {
     item.classList.add("menu-nav--active");
