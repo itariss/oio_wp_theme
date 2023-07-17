@@ -1,0 +1,41 @@
+.footer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #131417;
+}
+
+.footer h6 {
+  color: #bebebf;
+  padding: 0 4rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.footer .contato-footer {
+  text-decoration: none;
+  background-color: #fc3232;
+  border: 3px solid #fc3232;
+  border-radius: 17px;
+  color: #bebebf;
+  padding: 0.5rem 0.7rem;
+  transition: 0.6s ease-in-out;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer .contato-footer:hover {
+  background-color: transparent;
+  color: #fc3232;
+}
+
+.footer p {
+  color: #bebebf;
+  text-align: center;
+  font-size: 0.8rem;
+}

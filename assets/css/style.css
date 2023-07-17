@@ -1,7 +1,10 @@
-@import url(./navbar.css);
-@import url(./logo.css);
-@import url(./menu-social.css);
-@import url(./menu-mobile.css);
+@import url(./header/navbar.css);
+@import url(./header/logo.css);
+@import url(./header/menu-social.css);
+@import url(./header/menu-mobile.css);
+
+@import url(./footer/footer.css);
+@import url(./footer/footer-social.css);
 
 @font-face {
   font-family: "Manrope";
@@ -10,4 +13,8 @@
 
 html {
   font-family: "Manrope";
+}
+
+body {
+  margin: 0;
 }

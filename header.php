@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="<?= get_template_directory_uri(  ) . './assets/css/style.css'; ?>">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title><?php bloginfo( 'name' ); ?></title>
-  <?php wp_head(  ); ?>
+  <?php wp_head(); ?>
 </head>
 <body>
     <header>

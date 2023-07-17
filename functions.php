@@ -6,6 +6,7 @@ function oio_registro_menu() {
 
 function oio_recursos() {
   add_theme_support( 'custom-logo' );
+  add_theme_support( 'post-thumbnails' );
 }
 
 add_action('init', 'oio_registro_menu');
